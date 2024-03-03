@@ -13,7 +13,9 @@ export const Contact = ({ value }) => {
           <FcReading className={css.icons} />
           {value.name}
         </p>
+        
 
+        
         <p className={css.numberItem}>
           <FcPhone className={css.icons} />
           {value.number}
